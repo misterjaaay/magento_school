@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <menu>
+        <first_lesson3 module="first_lesson3" translate="title">
+            <title>Itdelight</title>
+            <sort_order>100</sort_order>
+            <children>
+                <index module="first_lesson3" translate="title">
+                    <title>Module settings</title>
+                    <sort_order>1</sort_order>
+                    <action>adminhtml/custom</action>
+                </index>
+            </children>
+        </first_lesson3>
+    </menu>
+    <acl>
+        <resources>
+            <admin>
+                <children>
+                    <index translate="title" module="first_lesson3">
+                        <title>My Controller</title>
+                        <sort_order>-100</sort_order>
+                        <children>
+                            <index translate="title">
+                                <title>Module settings</title>
+                                <sort_order>1</sort_order>
+                            </index>
+                        </children>
+                    </index>
+                </children>
+            </admin>
+        </resources>
+    </acl>
+</config>
