@@ -22,7 +22,8 @@
             </first_lesson3>
         </helpers>
     </global>
-    <admin>
+
+<!--    <admin>
         <routers>
             <adminhtml>
                 <args>
@@ -31,6 +32,17 @@
                     </module>
                 </args>
             </adminhtml>
+        </routers>
+    </admin>-->
+    <admin>
+        <routers>
+            <first_lesson3>
+                <use>admin</use>
+                <args>
+                    <module>Itdelight_First</module>
+                    <frontName>first_admin</frontName>
+                </args>
+            </first_lesson3>
         </routers>
     </admin>
      <frontend>
@@ -43,6 +55,7 @@
                 </args>
             </first_lesson3>
         </routers>
+
     </frontend>
     <adminhtml>
         <acl>

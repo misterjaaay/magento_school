@@ -1,32 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <config>
     <menu>
-        <first module="first_lesson3" translate="title">
+        <first_admin module="first_lesson3" translate="title">
             <title>Itdelight</title>
             <sort_order>100</sort_order>
             <children>
                 <index module="first_lesson3" translate="title">
                     <title>Module settings</title>
                     <sort_order>1</sort_order>
-                    <action>adminhtml/custom</action>
+                    <action>first_admin/adminthtml</action>
                 </index>
             </children>
-        </first>
+        </first_admin>
     </menu>
     <acl>
         <resources>
             <admin>
                 <children>
-                    <index translate="title" module="first_lesson3">
-                        <title>My Controller</title>
-                        <sort_order>-100</sort_order>
+                    <first_admin translate="title" module="first_lesson3">
+                        <title>Itdelight</title>
+                        <sort_order>100</sort_order>
                         <children>
                             <index translate="title">
                                 <title>Module settings</title>
                                 <sort_order>1</sort_order>
                             </index>
                         </children>
-                    </index>
+                    </first_admin>
                 </children>
             </admin>
         </resources>

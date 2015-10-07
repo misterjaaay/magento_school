@@ -4,12 +4,6 @@ class Itdelight_First_Adminhtml_IndexController extends Mage_Adminhtml_Controlle
 {
     public function indexAction()
     {
-        $this->loadLayout()
-            ->_setActiveMenu('mycustomtab')
-            ->_title($this->__('Module settings'));
-
-        // my stuff
-
-        $this->renderLayout();
+        echo '<h1>News Module: Admin section</h1>';die;
     }
 }
