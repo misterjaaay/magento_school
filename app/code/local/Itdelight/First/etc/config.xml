@@ -26,21 +26,14 @@
         <routers>
             <adminhtml>
                 <args>
-                    <modules>
-                        <foo_bar before="Mage_Adminhtml">Itdelight_First_Adminhtml</foo_bar>
-                    </modules>
+                    <module>
+                        <Itdelight_First before="Mage_Adminhtml">Itdelight_First_Adminhtml</Itdelight_First>
+                    </module>
                 </args>
             </adminhtml>
         </routers>
     </admin>
      <frontend>
-        <layout>
-            <updates>
-                <first_lesson3>
-                    <file>local.xml</file>
-                </first_lesson3>
-            </updates>
-        </layout>
         <routers>
             <first_lesson3>
                 <use>standard</use>

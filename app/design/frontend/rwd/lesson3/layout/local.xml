@@ -1,8 +1,8 @@
 <?xml version="1.0" ?>
 <layout>
-    <first_index_index>
+    <first_lesson3_index_index>
         <reference name="content">
             <block type="core/template" template="first/index.phtml" />
         </reference>
-    </first_index_index>
+    </first_lesson3_index_index>
 </layout>

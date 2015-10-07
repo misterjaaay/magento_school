@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <config>
     <menu>
-        <first_lesson3 module="first_lesson3" translate="title">
+        <first module="first_lesson3" translate="title">
             <title>Itdelight</title>
             <sort_order>100</sort_order>
             <children>
@@ -11,7 +11,7 @@
                     <action>adminhtml/custom</action>
                 </index>
             </children>
-        </first_lesson3>
+        </first>
     </menu>
     <acl>
         <resources>
