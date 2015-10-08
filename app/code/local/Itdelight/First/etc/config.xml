@@ -7,22 +7,22 @@
     </modules>
     <global>
         <blocks>
-            <first_lesson3>
+            <itdelight_first>
                 <class>Itdelight_First_Block</class>
-            </first_lesson3>
+            </itdelight_first>
         </blocks>
         <models>
-            <first_lesson3>
+            <itdelight_first>
                 <class>Itdelight_First_Model</class>
-            </first_lesson3>
+            </itdelight_first>
         </models>
         <helpers>
-            <first_lesson3>
+            <itdelight_first>
                 <class>Itdelight_First_Helper</class>
-            </first_lesson3>
+            </itdelight_first>
         </helpers>
     </global>
-    <admin>
+<!--    <admin>
         <routers>
             <adminhtml>
                 <args>
@@ -32,17 +32,29 @@
                 </args>
             </adminhtml>
         </routers>
+    </admin>-->
+    <admin>
+        <routers>
+            <itdelight_first>
+                <use>admin</use>
+                <args>
+                    <module>Itdelight_First</module>
+                    <frontName>first_admin</frontName>
+                </args>
+            </itdelight_first>
+        </routers>
     </admin>
      <frontend>
         <routers>
-            <first_lesson3>
+            <itdelight_first>
                 <use>standard</use>
                 <args>
                     <module>Itdelight_First</module>
                     <frontName>first</frontName>
                 </args>
-            </first_lesson3>
+            </itdelight_first>
         </routers>
+
     </frontend>
     <adminhtml>
         <acl>
