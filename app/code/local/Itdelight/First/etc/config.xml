@@ -22,7 +22,7 @@
             </itdelight_first>
         </helpers>
     </global>
-    <admin>
+<!--    <admin>
         <routers>
             <adminhtml>
                 <args>
