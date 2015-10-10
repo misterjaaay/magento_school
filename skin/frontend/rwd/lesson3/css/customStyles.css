@@ -1,0 +1,97 @@
+/**
+ *
+ * @category    design
+ * @package     rwd_lesson3
+ * @copyright   Copyright (c) 2006-2015 Itdelight, by AleksLi
+ *
+/* ==========================================================================
+   Custom Styles for product page
+   ========================================================================== */
+
+.catalog-product-view .main-container {
+    background: -webkit-linear-gradient(90deg, #215f00 10%, #e4e4d9 90%); /* Chrome 10+, Saf5.1+ */
+    background:    -moz-linear-gradient(90deg, #215f00 10%, #e4e4d9 90%); /* FF3.6+ */
+    background:     -ms-linear-gradient(90deg, #215f00 10%, #e4e4d9 90%); /* IE10 */
+    background:      -o-linear-gradient(90deg, #215f00 10%, #e4e4d9 90%); /* Opera 11.10+ */
+    background:         linear-gradient(90deg, #215f00 10%, #e4e4d9 90%); /* W3C */
+}
+
+.catalog-product-view .page-header {
+    background: -webkit-linear-gradient(90deg, #c21500 10%, #ffc500 90%); /* Chrome 10+, Saf5.1+ */
+    background:    -moz-linear-gradient(90deg, #c21500 10%, #ffc500 90%); /* FF3.6+ */
+    background:     -ms-linear-gradient(90deg, #c21500 10%, #ffc500 90%); /* IE10 */
+    background:      -o-linear-gradient(90deg, #c21500 10%, #ffc500 90%); /* Opera 11.10+ */
+    background:         linear-gradient(90deg, #c21500 10%, #ffc500 90%); /* W3C */
+}
+.catalog-product-view .footer-container {
+    background: -webkit-linear-gradient(90deg, #5f2c82 10%, #49a09d 90%); /* Chrome 10+, Saf5.1+ */
+    background:    -moz-linear-gradient(90deg, #5f2c82 10%, #49a09d 90%); /* FF3.6+ */
+    background:     -ms-linear-gradient(90deg, #5f2c82 10%, #49a09d 90%); /* IE10 */
+    background:      -o-linear-gradient(90deg, #5f2c82 10%, #49a09d 90%); /* Opera 11.10+ */
+    background:         linear-gradient(90deg, #5f2c82 10%, #49a09d 90%); /* W3C */
+}
+
+.product-view .product-shop .product-name .h1 {
+    color: red;
+    font-size: 36px;
+}
+
+
+/* ==========================================================================
+   Custom Styles  product page for my module (itdelight_first)
+   ========================================================================== */
+
+.itdelight-first-index-index .page-header {
+    background: -webkit-linear-gradient(90deg, #283048 10%, #859398 90%); /* Chrome 10+, Saf5.1+ */
+    background:    -moz-linear-gradient(90deg, #283048 10%, #859398 90%); /* FF3.6+ */
+    background:     -ms-linear-gradient(90deg, #283048 10%, #859398 90%); /* IE10 */
+    background:      -o-linear-gradient(90deg, #283048 10%, #859398 90%); /* Opera 11.10+ */
+    background:         linear-gradient(90deg, #283048 10%, #859398 90%); /* W3C */
+}
+
+.itdelight-first-index-index .main-container {
+    background: -webkit-linear-gradient(90deg, #DAE2F8 10%, #D6A4A4 90%); /* Chrome 10+, Saf5.1+ */
+    background:    -moz-linear-gradient(90deg, #DAE2F8 10%, #D6A4A4 90%); /* FF3.6+ */
+    background:     -ms-linear-gradient(90deg, #DAE2F8 10%, #D6A4A4 90%); /* IE10 */
+    background:      -o-linear-gradient(90deg, #DAE2F8 10%, #D6A4A4 90%); /* Opera 11.10+ */
+    background:         linear-gradient(90deg, #DAE2F8 10%, #D6A4A4 90%); /* W3C */
+}
+.itdelight-first-index-index .footer-container {
+    background: -webkit-linear-gradient(90deg, #757F9A 10%, #D7DDE8 90%); /* Chrome 10+, Saf5.1+ */
+    background:    -moz-linear-gradient(90deg, #757F9A 10%, #D7DDE8 90%); /* FF3.6+ */
+    background:     -ms-linear-gradient(90deg, #757F9A 10%, #D7DDE8 90%); /* IE10 */
+    background:      -o-linear-gradient(90deg, #757F9A 10%, #D7DDE8 90%); /* Opera 11.10+ */
+    background:         linear-gradient(90deg, #757F9A 10%, #D7DDE8 90%); /* W3C */
+}
+
+.itdelight-first-index-index .global-site-notice {
+    display: none;
+}
+.itdelight-first-index-index .nav-primary a {
+    color: white;
+}
+
+.itdelight-first-index-index .nav-primary li.level0 ul {
+    background: -webkit-linear-gradient(90deg, #1F1C2C 10%, #928DAB 90%); /* Chrome 10+, Saf5.1+ */
+    background:    -moz-linear-gradient(90deg, #1F1C2C 10%, #928DAB 90%); /* FF3.6+ */
+    background:     -ms-linear-gradient(90deg, #1F1C2C 10%, #928DAB 90%); /* IE10 */
+    background:      -o-linear-gradient(90deg, #1F1C2C 10%, #928DAB 90%); /* Opera 11.10+ */
+    background:         linear-gradient(90deg, #1F1C2C 10%, #928DAB 90%); /* W3C */
+}
+
+/* PARAGRAPH CODE */
+
+.itdelight-first-index-index .col-wrapper p:first-letter{
+    text-transform: uppercase;
+}
+.itdelight-first-index-index .col-wrapper p {
+    color: #424242;
+    font-family: "Adobe Caslon Pro", "Hoefler Text", Georgia, Garamond, Times, serif;
+    letter-spacing:0.1em;
+    text-align:center;
+    margin: 40px auto;
+    text-transform: lowercase;
+    line-height: 145%;
+    font-size: 14pt;
+    font-variant: small-caps;
+}
