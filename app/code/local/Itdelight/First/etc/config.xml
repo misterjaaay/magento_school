@@ -54,7 +54,13 @@
                 </args>
             </itdelight_first>
         </routers>
-
+         <layout>
+             <updates>
+                 <itdelight_first>
+                     <file>itdelight_first.xml</file>
+                 </itdelight_first>
+             </updates>
+         </layout>
     </frontend>
     <adminhtml>
         <acl>
